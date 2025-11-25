@@ -1,0 +1,4 @@
+baseURL = 'https://dylanjroy.github.io/'
+languageCode = 'en-us'
+title = 'Dylan Joseph Roy-Leo'
+theme = 'hugo-brewm'
