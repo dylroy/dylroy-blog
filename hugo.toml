@@ -31,3 +31,7 @@ theme = 'hugo-brewm'
         Post = "About my hobbies and wife"
         parent = "about"
         pageRef = "/posts/my-first-post.md"
+
+[caches]
+    [caches.images]
+        dir = ':cacheDir/images'
