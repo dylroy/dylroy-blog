@@ -45,6 +45,14 @@
         </a>
     </nav>
     
+    <div id="logo">
+        <a href="http://localhost:1313/" aria-label="Dylan Joseph Roy-Leo" aria-description="Homepage">
+                <!-- logotype.html --><svg id="logotype" xmlns="http://www.w3.org/2000/svg" version="1.1" width="560pt" aria-label="Dylan Joseph Roy-Leo">
+            <text id="logotype__text" y="19.5pt" x="0">Dylan Joseph Roy-Leo</text>
+        </svg>
+        </a>
+        <hr class="hide"/>
+    </div>
     
     <details class="presentation" id="top-nav">
         <summary class="on-deck">
@@ -71,7 +79,7 @@
             
     
         <li role="presentation" >
-    <a   class=has-desc href=/
+    <a   class=has-desc href=/posts/my-first-post/
             aria-label="Personal"
             aria-description="About my hobbies and wife">
         
@@ -139,19 +147,85 @@
             
         </div>
         
-        <div class="pagewidth">
-            <div style="display:flex;height:var(--vbody);width:100%;">
-        <section class="hero" style="margin: auto; width: var(--canonic);" aria-labelledby="noArticle">
-            <picture class="hero__image">
-                <img src="https://i.pinimg.com/736x/bf/34/76/bf3476c1569c5af162779ecbb4134c3a.jpg" alt="cat is unsure on what to do with his laptop">
-            </picture>
-            <div class="hero__content">
-                <h1 id="noArticle" style="font-size:var(--large);font-weight:500;">No articles to show.</h1>
-                <p>It appears that our author ran out of coffee... Keep calm, we&#39;ll brew one shortly!</p>
-            </div>
+                <aside id="list-tags">
+                    <header class="section-title">
+                        <strong>Tags</strong>
+                    </header>
+                    <nav aria-label="Tags">
+                        <!-- taxonomies.html -->
+        <ul class="rounded has-hash" role="presentation">
+            
+                    <li >
+                        <a href="http://localhost:1313/tags/first-post/"
+                            aria-label="Tag: First Post"
+                            aria-description="2 Posts"
+                            data-post-counter="2"
+                            >
+                            <span>First Post</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="http://localhost:1313/tags/post/"
+                            aria-label="Tag: Post"
+                            aria-description="2 Posts"
+                            data-post-counter="2"
+                            >
+                            <span>Post</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="http://localhost:1313/tags/electrodynamics/"
+                            aria-label="Tag: Electrodynamics"
+                            aria-description="1 Post"
+                            data-post-counter="1"
+                            >
+                            <span>Electrodynamics</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="http://localhost:1313/tags/research/"
+                            aria-label="Tag: Research"
+                            aria-description="1 Post"
+                            data-post-counter="1"
+                            >
+                            <span>Research</span>
+                        </a>
+                    </li>
+        </ul>
+                    </nav>
+                    <hr class="hide"/>
+                </aside>
+        
+            <section class="pagewidth">
+                    
+            <!-- listing.html -->
+        <section id="list-categories" class="has-crsl" aria-label="categories">
+            <a href="http://localhost:1313/categories"  class="section-title">Categories</a>
+            <!-- taxonomies.html -->
+        <ul class="crsl" role="presentation">
+            
+                    <li class="srs" style="--img: url(https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/6.svg);">
+                        <a href="http://localhost:1313/categories/maths/"
+                            aria-label="Category: Maths"
+                            aria-description="1 Post"
+                            data-post-counter="1"
+                            >
+                            <span>Maths</span>
+                        </a>
+                    </li>
+                    <li class="srs" style="--img: url(https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/11.svg);">
+                        <a href="http://localhost:1313/categories/research/"
+                            aria-label="Category: Research"
+                            aria-description="1 Post"
+                            data-post-counter="1"
+                            >
+                            <span>Research</span>
+                        </a>
+                    </li>
+        </ul>
         </section>
-    </div>
-        </div>
+            <!-- listing.html -->
+            </section>
         <div id="exclude" role="presentation">
             <!-- excluded last block frome some RSS reader and browser reader mode -->
             

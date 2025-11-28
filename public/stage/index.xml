@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+    <title>Stage on Dylan Joseph Roy-Leo</title>
+    <link>http://localhost:1313/stage/</link>
+    <description>Recent Posts in Stage on Dylan Joseph Roy-Leo</description>
+    <generator>Hugo 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Nov 2025 16:39:31 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/stage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>budding</title>
+      <link>http://localhost:1313/stage/budding/</link>
+      <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/stage/budding/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>evergreen</title>
+      <link>http://localhost:1313/stage/evergreen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/stage/evergreen/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>seedling</title>
+      <link>http://localhost:1313/stage/seedling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/stage/seedling/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+  </channel>
+</rss>

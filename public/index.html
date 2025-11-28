@@ -9,7 +9,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dylan Joseph Roy-Leo</title>
 <meta name="author" content="">
-<meta name="description" content="Ciao! My name is Dylan Roy-Leo, and this is my website! This is a simple homepage written as content so the hugo-brewm theme can render its hero, …" >
 <meta name="keywords" content="Homepage">
 <link rel="canonical" href="http://localhost:1313/">
 
@@ -52,6 +51,14 @@
         </a>
     </nav>
     
+    <div id="logo">
+        <a href="http://localhost:1313/" aria-label="Dylan Joseph Roy-Leo" aria-description="Homepage">
+                <!-- logotype.html --><svg id="logotype" xmlns="http://www.w3.org/2000/svg" version="1.1" width="560pt" aria-label="Dylan Joseph Roy-Leo">
+            <text id="logotype__text" y="19.5pt" x="0">Dylan Joseph Roy-Leo</text>
+        </svg>
+        </a>
+        <hr class="hide"/>
+    </div>
     
     <details class="presentation" id="top-nav">
         <summary class="on-deck">
@@ -78,7 +85,7 @@
             
     
         <li role="presentation" >
-    <a   aria-current=page class=has-desc href=/
+    <a   class=has-desc href=/posts/my-first-post/
             aria-label="Personal"
             aria-description="About my hobbies and wife">
         
@@ -87,7 +94,7 @@
     </a>
         </li>
         <li role="presentation" >
-    <a   aria-current=page class=has-desc href=/
+    <a   class=has-desc href=/
             aria-label="Professional"
             aria-description="About my academic and professional career">
         
@@ -130,32 +137,47 @@
                                 alt="" >
                         </div>
                         <div class="slide__content ">
-                                <h1 id="slide-1__heading" class="section-title">This is slide</h1>
                             <div>
-                                    <p>words words words</p>
+                                    <h1 id="about">About</h1>
+<p>Ciao! My name is Dylan and welcome to my digital garden! I&rsquo;m a second-year graduate student at the University of Massachusetts Amherst pursuing a master&rsquo;s degree in Geography in the department of Earth, Geographic, and Climate Sciences. I&rsquo;m also a second-year NE CASC (North East Climate Adaption Science Center) <a href="https://necasc.umass.edu/people/dylan-roy" target="_blank" rel="external noopener noreferrer nofollow">research fellow</a>.</p>
+<p>I love taking notes, organizing my thoughts, and consolidating my knowledge. I also love sharing my creations and ideas. That&rsquo;s why I started this site which is a living and breathing collection of works, ideas, projects, rants, and whatever else I decide I want filed away. I hope you enjoy browsing as much as I did making this site!</p>
 
                             </div>
                         </div>
                             <nav class="crsl__nav">
                                     
                                         <a href="#slide-2" rel="next" role="button" aria-controls="slide-2">
-                                            <span>Pin</span>
+                                            <span>My basic stats</span>
                                         </a>
                             </nav>
                     </section>
                     <section id="slide-2" class="slide"
                         aria-labelledby="slide-2__heading">
                         <div class="slide__content ">
-                                <h1 id="slide-2__heading" class="section-title">Pin</h1>
+                                <h1 id="slide-2__heading" class="section-title">My basic stats</h1>
                             <div>
-                                    <p>This is a second slide</p>
+                                    <h2 id="name">Name:</h2>
+<p>Dylan J. Roy-Leo</p>
+<h2 id="pronouns">Pronouns:</h2>
+<p>He/Him</p>
+<h2 id="email">Email:</h2>
+<p><a href="mailto:djroy@umass.edu" target="_blank" rel="external noopener noreferrer nofollow">djroy@umass.edu</a></p>
+<h2 id="current-university">Current university:</h2>
+<p>University of Massachusetts Amherst</p>
+<h2 id="interests">Interests:</h2>
+<ul>
+<li>ML/AI</li>
+<li>Statistics</li>
+<li>GFD</li>
+<li>Coastal Modeling</li>
+</ul>
 
                             </div>
                         </div>
                             <nav class="crsl__nav">
                                     
                                         <a href="#slide-1" rel="prev" role="button" aria-controls="slide-1">
-                                            <span>This is slide</span>
+                                            <span></span>
                                         </a>
                             </nav>
                     </section>
@@ -171,59 +193,86 @@
                     <div class="crsl">
                         
             <!-- listing.html -->
+        <section id="list-categories" class="has-crsl" aria-label="categories">
+            <a href="http://localhost:1313/categories"  class="section-title">Categories</a>
+            <!-- taxonomies.html -->
+        <ul class="crsl" role="presentation">
+            
+                    <li class="srs" style="--img: url(https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/20.svg);">
+                        <a href="http://localhost:1313/categories/maths/"
+                            aria-label="Category: Maths"
+                            aria-description="1 Post"
+                            data-post-counter="1"
+                            >
+                            <span>Maths</span>
+                        </a>
+                    </li>
+                    <li class="srs" style="--img: url(https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/29.svg);">
+                        <a href="http://localhost:1313/categories/research/"
+                            aria-label="Category: Research"
+                            aria-description="1 Post"
+                            data-post-counter="1"
+                            >
+                            <span>Research</span>
+                        </a>
+                    </li>
+        </ul>
+        </section>
+            <!-- listing.html -->
                     </div>
                     <hr class="hide"/>
                 </div>
-                
-    <!-- hero.html -->
-    <section class="hero" aria-label="Homepage" tabindex="0">
-        <div class="hero__content"><h2 id="ciao">Ciao!</h2>
-<p>My name is Dylan Roy-Leo, and this is my website! This is a simple homepage written as content so the <code>hugo-brewm</code> theme can render its hero, listing and other homepage components automatically. Soon I will update this page to be super-duper cool!</p>
-<p>Testing paragraphs?? Wow <code>paragraphs</code> are so cool!</p>
-<p>What about LaTeX?? Inline?? $$inline \ \delta x$$ hmmm inline LaTeX does <em>not</em> want to render&hellip;</p>
-<p>Block LaTeX??</p>
-<p>$$
-\delta x
-$$</p>
-<p>Nope. Bummer. Testing from the <a href="https://foxihd.github.io/hugo-brewm/en/post/tufte-features/#we-really-like-cats" target="_blank" rel="external noopener noreferrer nofollow">Hugo-Tufte</a> website:</p>
-<p>
-<input id="marginpar-0" class="marginpar-ctrl" type="checkbox" aria-label="Additional Notes" aria-controls="the-marginpar-0" hidden>
-<label for="marginpar-0" tabindex="0" aria-label="Additional Notes" aria-controls="the-marginpar-0"></label>
-<span id="the-marginpar-0" class="marginpar " role="note">This is Marginpar.</span>
-$e^{i \pi} = -1$
-and $\sqrt{-1} = i $
-and $ a_2 = 3 $.</p>
-<p>Ok lets test code now:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> numpy np
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> scipy <span style="color:#66d9ef">as</span> sp
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#66d9ef">as</span> plt
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Gotta use those comments!!</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Comments are fun!!</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>arr <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>zeros((<span style="color:#ae81ff">10</span>,<span style="color:#ae81ff">10</span>))
-</span></span></code></pre></div><p>And that&rsquo;s some Python code!</p>
-<p>Testing epigraphs:
-
-<div role="doc-epigraph" class="epigraph">
-    <blockquote>
-    This is an example of an epigraph with some math
-$ \mathbb N \subseteq \mathbb R $
-to start the beginning of a section.
-        <footer>Shawn O&#39;Hare, <cite>Math is Fun</cite>, p.8
-        </footer>
-    <blockquote>
-</div></p>
-<h3 id="about">About</h3>
-<p>I write about software, tooling, and small experiments. This homepage uses the theme&rsquo;s shortcodes and partials to render a hero, featured content and post listing.</p>
-<p>Feel free to edit this file at <code>content/_index.md</code> to change the hero text, cover image, or add extra sections using the <code>section</code> shortcode.</p>
-
-        </div>
-    </section>
-
-                <hr class="hide"/>
         </div>
         
+                <aside id="list-tags">
+                    <header class="section-title">
+                        <strong>Discover Topics</strong>
+                    </header>
+                    <nav aria-label="Discover Topics">
+                        <!-- taxonomies.html -->
+        <ul class="rounded has-hash" role="presentation">
+            
+                    <li >
+                        <a href="http://localhost:1313/tags/first-post/"
+                            aria-label="Tag: First Post"
+                            aria-description="2 Posts"
+                            data-post-counter="2"
+                            >
+                            <span>First Post</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="http://localhost:1313/tags/post/"
+                            aria-label="Tag: Post"
+                            aria-description="2 Posts"
+                            data-post-counter="2"
+                            >
+                            <span>Post</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="http://localhost:1313/tags/electrodynamics/"
+                            aria-label="Tag: Electrodynamics"
+                            aria-description="1 Post"
+                            data-post-counter="1"
+                            >
+                            <span>Electrodynamics</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="http://localhost:1313/tags/research/"
+                            aria-label="Tag: Research"
+                            aria-description="1 Post"
+                            data-post-counter="1"
+                            >
+                            <span>Research</span>
+                        </a>
+                    </li>
+        </ul>
+                    </nav>
+                    <a class="tr" href="/tags/">Explore more topics</a>
+                    <hr class="hide"/>
+                </aside>
         
             <section id="list-posts" class="pagewidth" >
                 <header  class="section-title">
@@ -233,6 +282,84 @@ to start the beginning of a section.
                     <hr class="hide"/>
                 </header>
                     <div role="feed" aria-busy="false" aria-labelledby="list-post-heading">
+                        <article class="feed-item"
+        aria-posinset="1"
+        aria-setsize="2"
+        aria-labelledby="title-1"
+        aria-describedby="desc-1">
+        <hgroup>
+            <div>
+                <time datetime="2025-11-28T00:00:00&#43;00:00">November 28, 2025</time>
+                <span><span>Dylan J. Roy-Leo</span>
+                        <span>in</span>
+                        <!-- terms.html -->
+            
+                <a href="/categories/maths/" tabindex="-1">Maths</a>
+                </span>
+                
+            </div>
+            <a href="/posts/my-first-post/" class="sr0" tabindex="-1" aria-describedby="desc-1">
+                <h1 id="title-1">My first post about maths</h1>
+            </a>
+        </hgroup>
+        <a class="sri" href="/posts/my-first-post/" aria-label="My first post about maths" aria-describedby="desc-1"></a>
+        
+        <section >
+            <div class="par" id="desc-1">A description of the post
+            </div>
+        </section>
+        <footer>
+                        <span class="st budding"></span>
+            <span class="readingTime">1 min read
+            </span>
+            
+                    <!-- terms.html -->
+            <ul class="rounded invert" role="presentation">
+                    <li><a href="/tags/first-post/" tabindex="-1">First Post</a></li>
+                    <li><a href="/tags/post/" tabindex="-1">Post</a></li>
+                    <li><a href="/tags/electrodynamics/" tabindex="-1">Electrodynamics</a></li>
+            </ul>
+        </footer>
+    </article><hr class="ldots" role="presentation" aria-hidden="true">
+                        <article class="feed-item"
+        aria-posinset="2"
+        aria-setsize="2"
+        aria-labelledby="title-2"
+        aria-describedby="desc-2">
+        <hgroup>
+            <div>
+                <time datetime="2025-11-28T00:00:00&#43;00:00">November 28, 2025</time>
+                <span><span>Dylan J. Roy-Leo</span>
+                        <span>in</span>
+                        <!-- terms.html -->
+            
+                <a href="/categories/research/" tabindex="-1">Research</a>
+                </span>
+                
+            </div>
+            <a href="/posts/my-second-post/" class="sr0" tabindex="-1" aria-describedby="desc-2">
+                <h1 id="title-2">My first post about my research</h1>
+            </a>
+        </hgroup>
+        <a class="sri" href="/posts/my-second-post/" aria-label="My first post about my research" aria-describedby="desc-2"></a>
+        
+        <section >
+            <div class="par" id="desc-2">A description of the post
+            </div>
+        </section>
+        <footer>
+                        <span class="st budding"></span>
+            <span class="readingTime">0 min read
+            </span>
+            
+                    <!-- terms.html -->
+            <ul class="rounded invert" role="presentation">
+                    <li><a href="/tags/first-post/" tabindex="-1">First Post</a></li>
+                    <li><a href="/tags/post/" tabindex="-1">Post</a></li>
+                    <li><a href="/tags/research/" tabindex="-1">Research</a></li>
+            </ul>
+        </footer>
+    </article>
                     </div>
                     
             </section>

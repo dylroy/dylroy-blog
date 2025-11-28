@@ -2,6 +2,14 @@ baseURL = 'https://dylanjroy.github.io/'
 languageCode = 'en-us'
 title = 'Dylan Joseph Roy-Leo'
 theme = 'hugo-brewm'
+[params]
+    title = 'Dylan Joseph Roy-Leo'
+    [params.logo]
+        logoType = true
+[taxonomies]
+    stage = "stage"
+    tag = "tags"
+    category = "categories"
 [[menu.main]]
     identifier = "github"
     name = "GitHub!"
@@ -22,4 +30,4 @@ theme = 'hugo-brewm'
         name = "Personal"
         Post = "About my hobbies and wife"
         parent = "about"
-        pageRef = "/"
+        pageRef = "/posts/my-first-post.md"
